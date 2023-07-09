@@ -1,10 +1,8 @@
 <template>
-    <div class="container-fluid px-0 bg-light py-2">
-        <div class="row jumbotron">
-            <img src="../../../../public/images/jumbotron.jpg" alt="" />
-            <div class="cover">
-                <img src="" alt="" />
-            </div>
+    <div class="container-fluid bg-success jumbotron">
+        <img src="../../../../public/images/jumbotron.jpg" alt="" />
+        <div class="cover container p-0">
+            <img src="" alt="" />
         </div>
     </div>
 </template>
@@ -12,13 +10,14 @@
 export default {
     name: "jumbotron",
     data() {
-        return {
-            home: "",
-            comics: "",
-        };
+        return {};
     },
 };
 </script>
 <style lang="scss">
 @import "../../../scss/style.scss";
 </style>
+
+<!-- <div class="row jumbotron"> -->
+<!-- <img src="../../../../public/images/jumbotron.jpg" alt="" /> -->
+<!-- </div> -->

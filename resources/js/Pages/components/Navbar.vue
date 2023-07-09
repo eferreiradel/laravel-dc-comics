@@ -1,10 +1,12 @@
 <template>
-    <div class="container-fluid bg-light py-2">
-        <div
-            class="container d-flex justify-content-between align-items-center"
-        >
-            <div class="navbar-brand">
-                <img src="../../../../public/images/dc-logo.png" alt="" />
+    <div class="container-fluid py-2 px-0 shadow-sm">
+        <div class="container navbar">
+            <div class="navbar-brand p-0">
+                <img
+                    src="../../../../public/images/dc-logo.png"
+                    alt=""
+                    class="img-fluid"
+                />
             </div>
             <nav class="d-flex gap-2">
                 <a href="">HOME</a>
